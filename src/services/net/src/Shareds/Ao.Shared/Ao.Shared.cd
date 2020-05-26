@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ao.AoAnalizer">
+    <Position X="10.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgJQAAAAIAACAEEAAAwgxAAAAAAAAAA=</HashCode>
+      <FileName>AoAnalizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Ao.Shared.ForView.ForViewBuilder&lt;TView&gt;">
+    <Position X="13" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEAAAAAAABAAgAAQBAQAAAAAgAEEAgAAAQJUIAE=</HashCode>
+      <FileName>ForView\ForViewBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Ao.IAoAnalizer">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IAoAnalizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Ao.Shared.ForView.IViewBuildable&lt;TView&gt;">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQIAAAA=</HashCode>
+      <FileName>ForView\IViewBuildable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Ao.Shared.ForView.NoBuildHandle">
+    <Position X="16.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForView\ForViewBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ao.SavableConfig.DefaultSettingConfig">
+    <Position X="1.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAEQAAAAAAIAAAAAABABAAAAAAAAAAAA=</HashCode>
+      <FileName>SettingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ao.SavableConfig.SettingService&lt;TUI&gt;" BaseTypeListCollapsed="true">
+    <Position X="1.75" Y="4" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgACCICHAAAAAoAAiEAACIwAAAAAgACAAAQAA=</HashCode>
+      <FileName>SettingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ao.SavableConfig.SettingServiceExtensions">
+    <Position X="3.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SettingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ao.SavableConfig.SettingMap">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAgAEABAECAAAAAQAAAAAAAAEAAAgAAAAIAA=</HashCode>
+      <FileName>SettingMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ao.SavableConfig.SettingDesignerService&lt;TUI&gt;">
+    <Position X="6.5" Y="1" Width="9" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAAAECAAAAAQAACQAACAAAAAgAAAAgAAAAEAAA=</HashCode>
+      <FileName>SettingDesignerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
