@@ -1,0 +1,6 @@
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Data\bin\Debug\netcoreapp3.1\Leaf.Data.deps.json
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Data\bin\Debug\netcoreapp3.1\Leaf.Data.dll
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Data\obj\Debug\netcoreapp3.1\Leaf.Data.csprojAssemblyReference.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Data\obj\Debug\netcoreapp3.1\Leaf.Data.AssemblyInfoInputs.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Data\obj\Debug\netcoreapp3.1\Leaf.Data.AssemblyInfo.cs
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Data\obj\Debug\netcoreapp3.1\Leaf.Data.csproj.CoreCompileInputs.cache

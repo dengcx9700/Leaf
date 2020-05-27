@@ -1,0 +1,9 @@
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\bin\Debug\netstandard2.0\Leaf.Model.deps.json
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\bin\Debug\netstandard2.0\Leaf.Model.dll
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\bin\Debug\netstandard2.0\Ao.Core.dll
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\bin\Debug\netstandard2.0\Ao.Core.pdb
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\obj\Debug\netstandard2.0\Leaf.Model.csprojAssemblyReference.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\obj\Debug\netstandard2.0\Leaf.Model.AssemblyInfoInputs.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\obj\Debug\netstandard2.0\Leaf.Model.AssemblyInfo.cs
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\obj\Debug\netstandard2.0\Leaf.Model.csproj.CopyComplete
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Model\obj\Debug\netstandard2.0\Leaf.Model.csproj.CoreCompileInputs.cache

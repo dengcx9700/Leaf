@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QwjdbRF56rzlIdnDUQ+UpW9Dw2Zv2CDf94dI8GVsmJMZAdITOVGyPkNJ+/JH1qy+891f1VqV/2ZFdMfKOMEJcA==",
+  "success": true,
+  "projectFilePath": "E:\\LaplaceStudio Develop Deffines\\Leaf\\src\\services\\net\\src\\Web\\Leaf.Model\\Leaf.Model.csproj",
+  "expectedPackageFiles": [
+    "F:\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "F:\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "F:\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "F:\\.nuget\\packages\\ao.core\\1.0.0\\ao.core.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

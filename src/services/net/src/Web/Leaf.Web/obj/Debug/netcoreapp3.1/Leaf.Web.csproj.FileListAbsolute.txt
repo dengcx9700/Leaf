@@ -1,0 +1,5 @@
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Web\obj\Debug\netcoreapp3.1\Leaf.Web.csprojAssemblyReference.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Web\obj\Debug\netcoreapp3.1\Leaf.Web.csproj.CoreCompileInputs.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Web\obj\Debug\netcoreapp3.1\Leaf.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Web\obj\Debug\netcoreapp3.1\Leaf.Web.AssemblyInfoInputs.cache
+E:\LaplaceStudio Develop Deffines\Leaf\src\services\net\src\Web\Leaf.Web\obj\Debug\netcoreapp3.1\Leaf.Web.AssemblyInfo.cs
