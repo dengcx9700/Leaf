@@ -2,10 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Leaf.Data;
+using Leaf.Model;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +29,33 @@ namespace Leaf.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<LeafDbContext>(builder =>
+            {
+                var type = Configuration["DbContext:Type"];
+                void AddMemory()
+                {
+                    var memoryDbName = Configuration["DbContext:Memory:Name"];
+                    builder.UseInMemoryDatabase(memoryDbName);
+                }
+                void AddMysql()
+                {
+                    var str = Configuration["DbContext:Mysql:Configition"];
+                    builder.UseMySql(str);
+                }
+                switch (type)
+                {
+                    case "Memory":
+                        AddMemory();
+                        break;
+                    case "Mysql":
+                        AddMysql();
+                        break;
+                    default:
+                        throw new NotSupportedException(type);
+                }
+            })
+                .AddIdentity<LUser, LRole>()
+                .AddEntityFrameworkStores<LeafDbContext>();
             services.AddControllers();
         }
 
@@ -46,6 +77,10 @@ namespace Leaf.Web
             {
                 endpoints.MapControllers();
             });
+            using (var db=new LeafDbContext())
+            {
+                db.Database.EnsureCreated();
+            }
         }
     }
 }
