@@ -1,0 +1,31 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: leaf-user-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/LeafDB?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: Deng1997,./
+
+# mybatis配置
+mybatis:
+
+  type-aliases-package: com.dcx.springcloud.pojo
+  mapper-locations: classpath:mapper/*.xml
+
+# eureka注册
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      #      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+  instance:
+    instance-id: user8001
+    prefer-ip-address: true

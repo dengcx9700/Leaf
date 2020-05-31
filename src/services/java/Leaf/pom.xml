@@ -11,6 +11,7 @@
     <modules>
         <module>leaf-eureka-server-7001</module>
         <module>leaf-api-commons</module>
+        <module>leaf-provider-user-8001</module>
     </modules>
 
     <properties>
