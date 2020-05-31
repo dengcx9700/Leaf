@@ -12,4 +12,7 @@ public interface UserMapper {
 
     List<User> queryAllUsers();
 
+    int addNewUser(User user);
+
+
 }

@@ -2,60 +2,65 @@ package com.leaf.pojo;
 
 public class User {
 
-    private String UserId;
-    private String UserName;
-    private String Password;
-    private boolean UserType;
+    private Long userId;
+
+    private String userName;
+
+    private String password;
+
+    // UserType: 1为普通用户， 0为管理员
+    private Integer userType;
 
     @Override
     public String toString() {
         return "User{" +
-                "UserId='" + UserId + '\'' +
-                ", UserName='" + UserName + '\'' +
-                ", Password='" + Password + '\'' +
-                ", UserType=" + UserType +
+                "userId='" + userId + '\'' +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", userType=" + userType +
                 '}';
     }
 
     public User() {
     }
 
-    public User(String userId, String userName, String password, boolean userType) {
-        UserId = userId;
-        UserName = userName;
-        Password = password;
-        UserType = userType;
+    public User(Long userId, String userName, String password, Integer userType) {
+        this.userId = userId;
+        this.userName = userName;
+        this.password = password;
+        this.userType = userType;
     }
 
-    public String getUserId() {
-        return UserId;
+    public Long getUserId() {
+        return userId;
     }
 
-    public void setUserId(String userId) {
-        UserId = userId;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
     public String getUserName() {
-        return UserName;
+        return userName;
     }
 
     public void setUserName(String userName) {
-        UserName = userName;
+        this.userName = userName;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
 
-    public boolean isUserType() {
-        return UserType;
+    public Integer getUserType() {
+        return userType;
     }
 
-    public void setUserType(boolean userType) {
-        UserType = userType;
+    public void setUserType(Integer userType) {
+        this.userType = userType;
     }
 }
+

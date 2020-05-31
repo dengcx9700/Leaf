@@ -7,4 +7,6 @@ import java.util.List;
 public interface UserService {
 
     List<User> queryAllUsers();
+
+    Boolean addNewUser(User user);
 }
