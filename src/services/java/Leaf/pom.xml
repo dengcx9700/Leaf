@@ -9,6 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>leaf-eureka-server-7001</module>
+        <module>leaf-api-commons</module>
     </modules>
 
     <properties>
